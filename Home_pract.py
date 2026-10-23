@@ -157,18 +157,21 @@
 # print(set)
 # print("Number of classrooms required:",len((set)))
 
-null_dict = {}
-print(null_dict)
+# null_dict = {}
+# print(null_dict)
 
-s1 = input("Enter your subject:")
-m1 = int(input("Enter your Marks:"))
-null_dict.update({s1: m1})
-print(null_dict)
-s2 = input("Enter your subject:")
-m2 = int(input("Enter your Marks:"))
-null_dict.update({s2: m2})
-print(null_dict)
-s3 = input("Enter your subject:")
-m3 = int(input("Enter your Marks:"))
-null_dict.update({s3: m3})
-print(null_dict)
+# s1 = input("Enter your subject:")
+# m1 = int(input("Enter your Marks:"))
+# null_dict.update({s1: m1})
+# print(null_dict)
+# s2 = input("Enter your subject:")
+# m2 = int(input("Enter your Marks:"))
+# null_dict.update({s2: m2})
+# print(null_dict)
+# s3 = input("Enter your subject:")
+# m3 = int(input("Enter your Marks:"))
+# null_dict.update({s3: m3})
+# print(null_dict)
+
+set = {"float":9.0, "int":9.0}
+print(set)
