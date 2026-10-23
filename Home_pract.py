@@ -230,11 +230,18 @@ i = 0
 while i<len(n):
     if (n[i]==x):
         print("found",i)
-    else:
-        print("not listed") 
+        break
+    # else:
+    #     print("not listed") 
     i+=1        
     
-
+# i = 1
+# while i <= 100:
+#     print(i)
+#     if(i==2):
+#         break    
+#     i+=1  
+# print("Loop ended")  
     
    
 
