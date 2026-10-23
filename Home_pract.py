@@ -176,19 +176,30 @@
 # set = {"float":9.0, "int":9.0}
 # print(set)
 
-count = 1
-while count<=5:
-    print("Hello world!",count)
-    count +=1
+# count = 1
+# while count<=5:
+#     print("Hello world!",count)
+#     count +=1
 
+# i = 1
+# while i <= 100:
+#     print("Vaishnavi",i)    
+#     i+=1   
+
+# i = 1
+# while i <= 100:
+#     print(i)    
+#     i+=1  
+# print("Loop ended")    
+
+# i = 100
+# while i>=1:
+#      print(i)
+#      i -=1
+# print("loop ended")
+
+n = 3
 i = 1
-while i <= 100:
-    print("Vaishnavi",i)    
-    i+=1   
-
-i = 10
-while i >= 1:
-    print("Vaishnavi",i)    
-    i-=1  
-print("Loop ended")    
-
+while i <=10:
+   print(n*i)
+   i+=1
