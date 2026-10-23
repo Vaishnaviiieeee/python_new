@@ -97,8 +97,18 @@
 # print(dict)
 # print(dict["City"])
 
-Null_dict = {}
-Null_dict ["Name"] = "Vaishnavi"
-Null_dict ["Course"] = "MCA"
-Null_dict ["Year"] = 1
-print(Null_dict)
+# Null_dict = {}
+# Null_dict ["Name"] = "Vaishnavi"
+# Null_dict ["Course"] = "MCA"
+# Null_dict ["Year"] = 1
+# print(Null_dict)
+
+student ={
+    "name":"vaishnavi",
+    "Score":{
+        "math" : 90,
+        "science":92,
+        "Geography":89
+    }
+}
+print(student)
