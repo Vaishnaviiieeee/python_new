@@ -198,8 +198,43 @@
 #      i -=1
 # print("loop ended")
 
-n = 3
-i = 1
-while i <=10:
-   print(n*i)
-   i+=1
+# n = 3
+# i = 1
+# while i <=10:
+#    print(n*i)
+#    i+=1
+
+n = (1,4,9,16,4,25,36,49,64,81,100)
+# heros = ["Batman", "Superman","Spiderman","Thar"]
+# idx = 0
+# while len(n)>=9:
+#     print(n[idx])
+#     idx+=1
+# idx = 4
+# while len(heros)<=90:
+#    print(heros[idx])
+#    idx+=1
+
+# x = 36
+# idx = 0
+# while idx<=len(n):
+#     if(n[idx] == x):
+#         print("found the number", idx)
+#         i+=1
+#     else:
+#         print("number not listed")  
+# 
+#   
+x = 4
+i = 0
+while i<len(n):
+    if (n[i]==x):
+        print("found",i)
+    else:
+        print("not listed") 
+    i+=1        
+    
+
+    
+   
+
