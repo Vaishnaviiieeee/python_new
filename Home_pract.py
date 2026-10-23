@@ -103,26 +103,38 @@
 # Null_dict ["Year"] = 1
 # print(Null_dict)
 
-student ={
-    "name":"vaishnavi",
-    "Score":{
-        "math" : 90,
-        "science":92,
-        "Geography":89
-    }
-}
-print(student["Score"])
-print(student)
-print(len(student))
-print(list(student.keys()))
-print(len(list(student.keys())))
-print(student.values())
-print(student.items())
-pair = list(student.items())
-print(pair[0])
-print(student.get("name"))
-student.update({"Name":"Vaishnavi sonawane", "City":"rahata"})
-print(student)
-pair2 = list(student.items())
-print(pair2[2])
-print(student.get("City"))
+# student ={
+#     "name":"vaishnavi",
+#     "Score":{
+#         "math" : 90,
+#         "science":92,
+#         "Geography":89
+#     }
+# }
+# print(student["Score"])
+# print(student)
+# print(len(student))
+# print(list(student.keys()))
+# print(len(list(student.keys())))
+# print(student.values())
+# print(student.items())
+# pair = list(student.items())
+# print(pair[0])
+# print(student.get("name"))
+# student.update({"Name":"Vaishnavi sonawane", "City":"rahata"})
+# print(student)
+# pair2 = list(student.items())
+# print(pair2[2])
+# print(student.get("City"))
+
+set = {2,4,5,5,6,7,8,7,6,9}
+
+set.add(3)
+set.add(1)
+print(set)
+set.remove(1)
+print(set)
+set.pop()
+print(set)
+set.clear()
+print(set)
