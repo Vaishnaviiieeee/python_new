@@ -173,5 +173,22 @@
 # null_dict.update({s3: m3})
 # print(null_dict)
 
-set = {"float":9.0, "int":9.0}
-print(set)
+# set = {"float":9.0, "int":9.0}
+# print(set)
+
+count = 1
+while count<=5:
+    print("Hello world!",count)
+    count +=1
+
+i = 1
+while i <= 100:
+    print("Vaishnavi",i)    
+    i+=1   
+
+i = 10
+while i >= 1:
+    print("Vaishnavi",i)    
+    i-=1  
+print("Loop ended")    
+
