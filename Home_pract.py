@@ -147,12 +147,28 @@
 # print(set1.union(set2))
 # print(set1.intersection(set2))
 
-dict= {
-    "table" : "a piece of furniture","List of facts and figures"
-    "cat" : "a small animal"
-    }
-print(dict)
+# dict= {
+#     "table" : "a piece of furniture","List of facts and figures"
+#     "cat" : "a small animal"
+#     }
+# print(dict)
 
-set = {"python", "Java", "C++", "python", "Javascript", "Java", "python", "Java", "C++", "C"}
-print(set)
-print("Number of classrooms required:",len((set)))
+# set = {"python", "Java", "C++", "python", "Javascript", "Java", "python", "Java", "C++", "C"}
+# print(set)
+# print("Number of classrooms required:",len((set)))
+
+null_dict = {}
+print(null_dict)
+
+s1 = input("Enter your subject:")
+m1 = int(input("Enter your Marks:"))
+null_dict.update({s1: m1})
+print(null_dict)
+s2 = input("Enter your subject:")
+m2 = int(input("Enter your Marks:"))
+null_dict.update({s2: m2})
+print(null_dict)
+s3 = input("Enter your subject:")
+m3 = int(input("Enter your Marks:"))
+null_dict.update({s3: m3})
+print(null_dict)
