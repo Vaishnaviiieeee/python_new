@@ -127,14 +127,22 @@
 # print(pair2[2])
 # print(student.get("City"))
 
-set = {2,4,5,5,6,7,8,7,6,9}
+# set = {2,4,5,5,6,7,8,7,6,9}
 
-set.add(3)
-set.add(1)
-print(set)
-set.remove(1)
-print(set)
-set.pop()
-print(set)
-set.clear()
-print(set)
+# set.add(3)
+# set.add("vaishnavi")
+# print(set)
+# set.remove(3)
+# print(set)
+# set.pop()
+# print(set)
+# set.update([12,94,10])
+# print(set)
+# set.clear()
+# print(set)
+
+set1 = {1,2,3}
+set2 = {3,4,5}
+
+print(set1.union(set2))
+print(set1.intersection(set2))
