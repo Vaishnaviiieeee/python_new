@@ -111,4 +111,14 @@ student ={
         "Geography":89
     }
 }
+print(student["Score"])
 print(student)
+print(len(student))
+print(list(student.keys()))
+print(len(list(student.keys())))
+print(student.values())
+print(student.items())
+pair = list(student.items())
+print(pair[0])
+print(student.get("name"))
+# print(student.update("Score"))
