@@ -253,7 +253,11 @@
 
 list = [1,2,3]
 tup = (1,2,3,3,4)
-for el in tup:
+str = "vaishnavi"
+for el in str:
+    if (el == "v"):
+        print("found v in the str")
+        break
     print(el)
 else:
     print("end")    
