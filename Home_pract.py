@@ -252,7 +252,8 @@
 #         i+=1
 
 list = [1,2,3]
-for el in list:
+tup = (1,2,3,3,4)
+for el in tup:
     print(el)
 else:
     print("end")    
