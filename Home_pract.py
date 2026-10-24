@@ -295,10 +295,40 @@
 # for i in range (100,0,-1):
 #     print(i)
 
-a = int(input("Enter number:"))
-for i in range(1,11):
-    print(a*i)
+# a = int(input("Enter number:"))
+# for i in range(1,11):
+#     print(a*i)
+ 
+# n = 5
+# sum = 0
+# for i in range(1, n+1):
+#     sum +=i
+# print("Sum is:", sum)     
 
+# n = 10
+# sum = 0
+# for i in range(1,n+1):
+#     sum +=i
+# print("sum is:", sum)    
+  
+def calc_sum(a,b):
+    sum= a+b
+    print(sum)
+    return sum
+
+calc_sum(20,30)
+
+calc_sum(35,90)
+
+calc_sum(30,10)
+
+def print_hello():
+    print("Hello vaishnavi")
+
+print_hello()
+print_hello()
+print_hello()
+print_hello()
    
 
 
