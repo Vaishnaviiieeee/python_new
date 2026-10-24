@@ -383,10 +383,19 @@
 # even_odd(2)
 # even_odd(3)          
 
-def show(n):
-    if(n == 0):
-        return
-    print(n)
-    show(n-1)
+# def show(n):
+#     if(n == 0):
+#         return
+#     print(n)
+#     show(n-1)
+#     print("end")
 
-show(10)
+# show(10)
+
+def sum_n(n):
+    if n <= 0:
+        sum = n + i
+        print(sum)
+        i +=1
+
+sum_n(3)
