@@ -204,7 +204,7 @@
 #    print(n*i)
 #    i+=1
 
-n = (1,4,9,16,4,25,36,49,64,81,100)
+# n = (1,4,9,16,4,25,36,49,64,81,100)
 # heros = ["Batman", "Superman","Spiderman","Thar"]
 # idx = 0
 # while len(n)>=9:
@@ -235,13 +235,29 @@ n = (1,4,9,16,4,25,36,49,64,81,100)
     #     print("not listed") 
     # i+=1        
     
-i = 0
-while i <= 5:
-    if(i==3):   
-       i+=1
-       continue
-    print(i) 
-    i+=1 
+# i = 0
+# while i <= 5:
+#     if(i==3):   
+#        i+=1
+#        continue
+#     print(i) 
+#     i+=1 
+
+# i = 1
+# while i <=10:
+#     if(i%2 == 0):
+#         i+=1
+#         print(i)
+#         continue
+#         i+=1
+
+list = [1,2,3]
+for el in list:
+    print(el)
+else:
+    print("end")    
+   
+
 
     
    
