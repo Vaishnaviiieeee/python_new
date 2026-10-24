@@ -251,16 +251,44 @@
 #         continue
 #         i+=1
 
-list = [1,2,3]
-tup = (1,2,3,3,4)
-str = "vaishnavi"
-for el in str:
-    if (el == "v"):
-        print("found v in the str")
-        break
-    print(el)
-else:
-    print("end")    
+# list = [1,2,3]
+# tup = (1,2,3,3,4)
+# str = "vaishnavi"
+# for el in str:
+#     if (el == "v"):
+#         print("found v in the str")
+#         break
+#     print(el)
+# else:
+#     print("end")   
+# 
+# n = (1,4,9,16,4,25,36,49,64,81,100) 
+# for el in n:
+#     print(el)
+
+# n = (1,4,9,16,4,25,36,49,64,81,100) 
+# x = 64
+# idx = 0
+# for el in n:
+#     if (el == x):
+#       print("number found at index:", idx)
+#       break
+#     idx +=1
+
+# seq = range(14)
+
+for i in range(10):
+    print(i)
+    print("END")
+
+for i in range(4,12):
+    print(i)  
+    print("End")  
+
+for i in range(2,100,2):
+    print(i)
+
+
    
 
 
