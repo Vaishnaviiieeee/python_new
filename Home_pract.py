@@ -374,11 +374,19 @@
 # fnd_usd(1)
 # fnd_usd(2)
 
-def even_odd(n):
-    if (n%2==0):
-        print(str("EVEN"))
-    else:
-        print(str("ODD"))  
+# def even_odd(n):
+#     if (n%2==0):
+#         print(str("EVEN"))
+#     else:
+#         print(str("ODD"))  
 
-even_odd(2)
-even_odd(3)          
+# even_odd(2)
+# even_odd(3)          
+
+def show(n):
+    if(n == 0):
+        return
+    print(n)
+    show(n-1)
+
+show(10)
