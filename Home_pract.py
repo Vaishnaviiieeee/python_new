@@ -311,27 +311,61 @@
 #     sum +=i
 # print("sum is:", sum)    
   
-def calc_sum(a,b):
-    sum= a+b
-    print(sum)
-    return sum
+# def calc_sum(a,b):
+#     sum= a+b
+#     print(sum)
+#     return sum
 
-calc_sum(20,30)
+# calc_sum(20,30)
 
-calc_sum(35,90)
+# calc_sum(35,90)
 
-calc_sum(30,10)
+# calc_sum(30,10)
 
-def print_hello():
-    print("Hello vaishnavi")
+# def print_he llo():
+#     print("Hello vaishnavi")
 
-print_hello()
-print_hello()
-print_hello()
-print_hello()
+# print_hello()
+# print_hello()
+# print_hello()
+# print_hello()
    
+# def avg(a,b,c):
+#     sum = a+b+c
+#     avg = sum/3
+#     print("avg is:", avg) 
+#     return avg  
 
+# avg(1,2,3)
 
+# print("Vaishnavi",end = " ")
+# print("Sonawane")
+
+# def avg(a=2,b=2,c=2):
+#     sum = a+b+c
+#     avg = sum/3
+#     print("avg is:", avg) 
+#     return avg 
+
+# avg(3,60,46)
+# avg()
+
+# num = [1,3,2,4,5,6,6,7,8,8]
+
+# def print_len(list):
+#     print(len(list))
+# def print_lidt(list):
+#     for item in list:
+#         print(item, end=" ") 
+# print(list(num))        
+
+def cal_fact(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *=i
+        print(fact)
+
+cal_fact(7)        
     
    
 
