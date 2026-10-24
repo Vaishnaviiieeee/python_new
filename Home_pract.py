@@ -367,10 +367,18 @@
 
 # cal_fact(7)        
     
-def fnd_usd(n):
-    usd = n * 83
-    print(usd)
+# def fnd_usd(n):
+#     usd = n * 83
+#     print(usd)
 
-fnd_usd(1)
-fnd_usd(2)
+# fnd_usd(1)
+# fnd_usd(2)
 
+def even_odd(n):
+    if (n%2==0):
+        print(str("EVEN"))
+    else:
+        print(str("ODD"))  
+
+even_odd(2)
+even_odd(3)          
