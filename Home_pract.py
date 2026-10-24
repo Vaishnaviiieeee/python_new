@@ -359,13 +359,18 @@
 #         print(item, end=" ") 
 # print(list(num))        
 
-def cal_fact(n):
-    fact = 1
-    for i in range(1, n+1):
-        fact *=i
-        print(fact)
+# def cal_fact(n):
+#     fact = 1
+#     for i in range(1, n+1):
+#         fact *=i
+#         print(fact)
 
-cal_fact(7)        
+# cal_fact(7)        
     
-   
+def fnd_usd(n):
+    usd = n * 83
+    print(usd)
+
+fnd_usd(1)
+fnd_usd(2)
 
