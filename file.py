@@ -28,6 +28,12 @@ print(line2)
 line3 = f.readline()
 print(line3)
 
+f = open("name.txt","a")
+f.write("\nthis is new line")
+
+f = open("name.txt","w")
+f.write("This is gone file")
+
 print(data)
 print(type(data))
 f.close
